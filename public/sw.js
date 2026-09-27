@@ -1,8 +1,8 @@
-const CACHE_NAME = 'antiwords-cache-v1';
+const CACHE_NAME = 'antiwords-cache-v2';
 const ASSETS_TO_CACHE = [
-  './',
-  './index.html',
-  './manifest.json'
+  '/Anti-Words/',
+  '/Anti-Words/index.html',
+  '/Anti-Words/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
