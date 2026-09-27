@@ -946,27 +946,27 @@ export default function MultiplayerLobby({
                   {
                     id: 'WOOD',
                     name: 'Kütük Kırma',
-                    img: '/assets/cards/card-wood-wide.jpg',
+                    img: `${import.meta.env.BASE_URL}assets/cards/card-wood-wide.jpg`,
                   },
                   {
                     id: 'GARDEN',
                     name: 'Bitki Büyütme',
-                    img: '/assets/cards/card-garden-wide.jpg',
+                    img: `${import.meta.env.BASE_URL}assets/cards/card-garden-wide.jpg`,
                   },
                   {
                     id: 'KITCHEN',
                     name: 'Mutfak Telaşı',
-                    img: '/assets/cards/card-kitchen-wide.jpg',
+                    img: `${import.meta.env.BASE_URL}assets/cards/card-kitchen-wide.jpg`,
                   },
                   {
                     id: 'FOOTBALL',
                     name: 'Futbol Sahası',
-                    img: '/assets/cards/card-football.png',
+                    img: `${import.meta.env.BASE_URL}assets/cards/card-football.png`,
                   },
                   {
                     id: 'CLASSIC',
                     name: 'Siber Masa',
-                    img: '/assets/cards/card-classic-wide.png',
+                    img: `${import.meta.env.BASE_URL}assets/cards/card-classic-wide.png`,
                   },
                 ].map((mapItem) => {
                   const isSelected = selectedMap === mapItem.id;

@@ -267,7 +267,7 @@ export default function GameArea({
         >
           <div className="plant-watering-can-wrap">
             <img
-              src="/assets/plant/watering-can.png"
+              src={`${import.meta.env.BASE_URL}assets/plant/watering-can.png`}
               alt="Suluk"
               className="watering-can-img"
               draggable={false}
@@ -352,10 +352,10 @@ export default function GameArea({
                 key={`pizza-${isPizzaLaunching ? 'launch' : isNewPizzaArriving ? 'new' : kitchenIngredientCount >= 6 ? 'full' : kitchenIngredientCount >= 3 ? 'half' : 'base'}-${pizzaBounceTrigger}`}
                 src={
                   isPizzaLaunching || kitchenIngredientCount >= 6
-                    ? '/assets/food/pizza-full.png'
+                    ? `${import.meta.env.BASE_URL}assets/food/pizza-full.png`
                     : kitchenIngredientCount >= 3
-                    ? '/assets/food/pizza-half.png'
-                    : '/assets/food/pizza-base.png'
+                    ? `${import.meta.env.BASE_URL}assets/food/pizza-half.png`
+                    : `${import.meta.env.BASE_URL}assets/food/pizza-base.png`
                 }
                 alt="Hazırlanan Pizza"
                 className={`pizza-stage-image ${
@@ -409,7 +409,7 @@ export default function GameArea({
           >
             <div className="shooting-ball-spin-wrap">
               <img
-                src="/assets/football-ball.png"
+                src={`${import.meta.env.BASE_URL}assets/football-ball.png`}
                 alt="Şut"
                 className="shooting-ball-img"
                 draggable={false}

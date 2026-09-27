@@ -23,7 +23,7 @@ export default function ChefKnife({ targetX, targetY, chopTrigger = 0 }) {
       {/* Şef Bıçağı Görseli */}
       <div className="chef-knife-actor">
         <img
-          src="/assets/chef-knife.png"
+          src={`${import.meta.env.BASE_URL}assets/chef-knife.png`}
           alt="Şef Bıçağı"
           className="knife-custom-image"
           draggable={false}

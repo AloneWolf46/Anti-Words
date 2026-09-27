@@ -404,14 +404,14 @@ export default function MainMenu({
                 title="Klasik Mod - Süper hızda kelimeleri yakala!"
               >
                 <img
-                  src="/assets/cards/card-classic-full.png"
+                  src={`${import.meta.env.BASE_URL}assets/cards/card-classic-full.png`}
                   alt="Klasik Mod"
                   className="card-full-img card-desktop-img"
                 />
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/cards/card-classic-wide.png"
+                      src={`${import.meta.env.BASE_URL}assets/cards/card-classic-wide.png`}
                       alt="Klasik Mod"
                       className="card-mobile-wide-img"
                     />
@@ -438,14 +438,14 @@ export default function MainMenu({
                 title="Odun Kesme Modu - Yukarıdan gelen odunları baltayla parçala!"
               >
                 <img
-                  src="/assets/cards/card-wood-full.png"
+                  src={`${import.meta.env.BASE_URL}assets/cards/card-wood-full.png`}
                   alt="Odun Kesme Modu"
                   className="card-full-img card-desktop-img"
                 />
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/cards/card-wood-wide.jpg"
+                      src={`${import.meta.env.BASE_URL}assets/cards/card-wood-wide.jpg`}
                       alt="Odun Kesme Modu"
                       className="card-mobile-wide-img"
                     />
@@ -472,14 +472,14 @@ export default function MainMenu({
                 title="Bitki Büyütme Modu - Kelime bahçene adım at!"
               >
                 <img
-                  src="/assets/cards/card-garden-full.png"
+                  src={`${import.meta.env.BASE_URL}assets/cards/card-garden-full.png`}
                   alt="Bitki Büyütme Modu"
                   className="card-full-img card-desktop-img"
                 />
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/cards/card-garden-wide.jpg"
+                      src={`${import.meta.env.BASE_URL}assets/cards/card-garden-wide.jpg`}
                       alt="Bitki Büyütme Modu"
                       className="card-mobile-wide-img"
                     />
@@ -506,14 +506,14 @@ export default function MainMenu({
                 title="Mutfak Modu - Kelimeleri doğra, pizzanı hazırla!"
               >
                 <img
-                  src="/assets/cards/card-kitchen-full.png"
+                  src={`${import.meta.env.BASE_URL}assets/cards/card-kitchen-full.png`}
                   alt="Mutfak Modu"
                   className="card-full-img card-desktop-img"
                 />
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/cards/card-kitchen-wide.jpg"
+                      src={`${import.meta.env.BASE_URL}assets/cards/card-kitchen-wide.jpg`}
                       alt="Mutfak Modu"
                       className="card-mobile-wide-img"
                     />
@@ -541,7 +541,7 @@ export default function MainMenu({
               >
                 <div className="card-visual-header card-desktop-img">
                   <img
-                    src="/assets/cards/card-football.png"
+                    src={`${import.meta.env.BASE_URL}assets/cards/card-football.png`}
                     alt="Futbol Modu"
                     className="card-banner-img"
                   />
@@ -561,7 +561,7 @@ export default function MainMenu({
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/cards/card-football.png"
+                      src={`${import.meta.env.BASE_URL}assets/cards/card-football.png`}
                       alt="Futbol Modu"
                       className="card-mobile-wide-img football"
                     />
@@ -589,7 +589,7 @@ export default function MainMenu({
               >
                 <div className="card-visual-header card-desktop-img">
                   <img
-                    src="/assets/city/city_building_ground_island_4k.png"
+                    src={`${import.meta.env.BASE_URL}assets/city/city_building_ground_island_4k.png`}
                     alt="Şehir Mimarı Modu"
                     className="card-banner-img city-card-banner"
                   />
@@ -610,7 +610,7 @@ export default function MainMenu({
                 <div className="card-mobile-horizontal-view">
                   <div className="card-mobile-media-box">
                     <img
-                      src="/assets/city/city_building_ground_island_4k.png"
+                      src={`${import.meta.env.BASE_URL}assets/city/city_building_ground_island_4k.png`}
                       alt="Şehir Mimarı Modu"
                       className="card-mobile-wide-img city"
                     />

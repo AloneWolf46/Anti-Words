@@ -59,7 +59,7 @@ export default function FallingLog({
         <div className={`log-body-wrapper ${isShaking ? 'log-hit-shake' : ''}`}>
           {/* Kütük Görseli */}
           <img
-            src="/assets/wood-log.png"
+            src={`${import.meta.env.BASE_URL}assets/wood-log.png`}
             alt="Kütük"
             className="log-wood-image"
             draggable={false}
@@ -100,13 +100,13 @@ export default function FallingLog({
         /* Kütük Parçalanma Efekti (İki Parçaya Bölünerek Uçuşur) */
         <div className="log-split-wrapper">
           <img
-            src="/assets/wood-log-left.png"
+            src={`${import.meta.env.BASE_URL}assets/wood-log-left.png`}
             alt="Kütük Sol Parça"
             className="log-split-piece piece-left"
             draggable={false}
           />
           <img
-            src="/assets/wood-log-right.png"
+            src={`${import.meta.env.BASE_URL}assets/wood-log-right.png`}
             alt="Kütük Sağ Parça"
             className="log-split-piece piece-right"
             draggable={false}

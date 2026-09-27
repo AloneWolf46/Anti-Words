@@ -60,32 +60,34 @@ export const CITY_PARCEL_SLOTS = [
   },
 ];
 
+const BASE = import.meta.env.BASE_URL;
+
 // 3 Aşamanın bina bilgileri ve görsel yolları
 export const CITY_BUILDING_STAGES = {
   VILLAGE: [
-    { slotId: 0, name: 'Ahşap Kulübe', img: '/assets/city/village_asset_01_wood_cabin.png', pop: 85 },
-    { slotId: 1, name: 'Taş Kulübe', img: '/assets/city/village_asset_03_stone_hut.png', pop: 110 },
-    { slotId: 2, name: 'Keşif Çadırı', img: '/assets/city/village_asset_02_canvas_tent.png', pop: 45 },
-    { slotId: 3, name: 'Sazdan Köy Evi', img: '/assets/city/village_asset_05_straw_cottage.png', pop: 95 },
-    { slotId: 4, name: 'Ormancı Kulübesi', img: '/assets/city/village_asset_01_wood_cabin.png', pop: 80 },
-    { slotId: 5, name: 'Balıkçı Barınağı', img: '/assets/city/village_asset_03_stone_hut.png', pop: 120 },
+    { slotId: 0, name: 'Ahşap Kulübe', img: `${BASE}assets/city/village_asset_01_wood_cabin.png`, pop: 85 },
+    { slotId: 1, name: 'Taş Kulübe', img: `${BASE}assets/city/village_asset_03_stone_hut.png`, pop: 110 },
+    { slotId: 2, name: 'Keşif Çadırı', img: `${BASE}assets/city/village_asset_02_canvas_tent.png`, pop: 45 },
+    { slotId: 3, name: 'Sazdan Köy Evi', img: `${BASE}assets/city/village_asset_05_straw_cottage.png`, pop: 95 },
+    { slotId: 4, name: 'Ormancı Kulübesi', img: `${BASE}assets/city/village_asset_01_wood_cabin.png`, pop: 80 },
+    { slotId: 5, name: 'Balıkçı Barınağı', img: `${BASE}assets/city/village_asset_03_stone_hut.png`, pop: 120 },
   ],
   TOWN: [
-    { slotId: 0, name: 'Taş Fırın & Pastane', img: '/assets/city/town_asset_02_bakery.png', pop: 650 },
-    { slotId: 1, name: 'Merkez Şehir Kafe', img: '/assets/city/town_asset_04_cafe.png', pop: 580 },
-    { slotId: 2, name: 'Kasaba Marketi', img: '/assets/city/town_asset_03_grocery_store.png', pop: 720 },
-    { slotId: 3, name: 'Müstakil Villa', img: '/assets/city/town_asset_01_suburban_house.png', pop: 850 },
-    { slotId: 4, name: 'Belediye Konağı', img: '/assets/city/town_asset_05_town_hall.png', pop: 1200 },
-    { slotId: 5, name: 'Halk Kütüphanesi', img: '/assets/city/city_slot_asset_04_library.png', pop: 950 },
+    { slotId: 0, name: 'Taş Fırın & Pastane', img: `${BASE}assets/city/town_asset_02_bakery.png`, pop: 650 },
+    { slotId: 1, name: 'Merkez Şehir Kafe', img: `${BASE}assets/city/town_asset_04_cafe.png`, pop: 580 },
+    { slotId: 2, name: 'Kasaba Marketi', img: `${BASE}assets/city/town_asset_03_grocery_store.png`, pop: 720 },
+    { slotId: 3, name: 'Müstakil Villa', img: `${BASE}assets/city/town_asset_01_suburban_house.png`, pop: 850 },
+    { slotId: 4, name: 'Belediye Konağı', img: `${BASE}assets/city/town_asset_05_town_hall.png`, pop: 1200 },
+    { slotId: 5, name: 'Halk Kütüphanesi', img: `${BASE}assets/city/city_slot_asset_04_library.png`, pop: 950 },
   ],
   METRO: [
-    { slotId: 0, name: 'Cam Gökdelen', img: '/assets/city/metro_asset_01_glass_skyscraper.png', pop: 4500, tall: true },
-    { slotId: 1, name: 'Gümüş Finans Plazası', img: '/assets/city/metro_asset_02_silver_plaza.png', pop: 5200, tall: true },
-    { slotId: 2, name: 'İkiz Plazalar', img: '/assets/city/metro_asset_05_twin_plaza.png', pop: 6800, tall: true },
-    { slotId: 3, name: 'Metropol Gözlem Kulesi', img: '/assets/city/city_slot_asset_05_city_tower.png', pop: 4200, tall: true },
-    { slotId: 4, name: 'Modern AVM Plazası', img: '/assets/city/city_slot_asset_01_market.png', pop: 5500 },
-    { slotId: 5, name: 'Lüks Rezidans', img: '/assets/city/city_slot_asset_03_apartment.png', pop: 4800 },
-    { slotId: 6, name: 'Kristal Ada Anıtı', img: '/assets/city/metro_asset_04_monument.png', pop: 10000, monument: true },
+    { slotId: 0, name: 'Cam Gökdelen', img: `${BASE}assets/city/metro_asset_01_glass_skyscraper.png`, pop: 4500, tall: true },
+    { slotId: 1, name: 'Gümüş Finans Plazası', img: `${BASE}assets/city/metro_asset_02_silver_plaza.png`, pop: 5200, tall: true },
+    { slotId: 2, name: 'İkiz Plazalar', img: `${BASE}assets/city/metro_asset_05_twin_plaza.png`, pop: 6800, tall: true },
+    { slotId: 3, name: 'Metropol Gözlem Kulesi', img: `${BASE}assets/city/city_slot_asset_05_city_tower.png`, pop: 4200, tall: true },
+    { slotId: 4, name: 'Modern AVM Plazası', img: `${BASE}assets/city/city_slot_asset_01_market.png`, pop: 5500 },
+    { slotId: 5, name: 'Lüks Rezidans', img: `${BASE}assets/city/city_slot_asset_03_apartment.png`, pop: 4800 },
+    { slotId: 6, name: 'Kristal Ada Anıtı', img: `${BASE}assets/city/metro_asset_04_monument.png`, pop: 10000, monument: true },
   ],
 };
 
@@ -106,7 +108,7 @@ export default function CityIslandArea({
         <div className="city-island-scene">
           {/* 4K İzometrik Zemin Adası */}
           <img
-            src="/assets/city/city_building_ground_island_4k.png"
+            src={`${BASE}assets/city/city_building_ground_island_4k.png`}
             alt="Kelime Adası Zemini"
             className="city-ground-island-img"
             draggable={false}

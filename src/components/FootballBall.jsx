@@ -55,7 +55,7 @@ export default function FootballBall({
 
         {/* Futbol Topu Görseli */}
         <img
-          src="/assets/football-ball.png"
+          src={`${import.meta.env.BASE_URL}assets/football-ball.png`}
           alt="Futbol Topu"
           className="football-ball-img"
           draggable={false}

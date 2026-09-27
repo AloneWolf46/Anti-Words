@@ -58,7 +58,7 @@ export default function GrowingPlant({
       {/* Bitki Görseli (Aşamaya Göre Dinamik Değişir) */}
       <div className="plant-sprite-wrapper">
         <img
-          src={`/assets/plant/plant-stage-${stage}.png`}
+          src={`${import.meta.env.BASE_URL}assets/plant/plant-stage-${stage}.png`}
           alt={`Aşama ${stage}`}
           className={`plant-img stage-img-${stage}`}
           draggable={false}

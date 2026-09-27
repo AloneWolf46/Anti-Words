@@ -54,7 +54,7 @@ export default function FallingFood({
       >
         {!imgFailed ? (
           <img
-            src={`/assets/food/${food.id}.png`}
+            src={`${import.meta.env.BASE_URL}assets/food/${food.id}.png`}
             alt={food.name}
             className="food-custom-img"
             onError={() => setImgFailed(true)}

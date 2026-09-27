@@ -63,7 +63,7 @@ export default function AxeWeapon({ chopTrigger = 0, isFocused = false }) {
       {/* Balta Görseli ve Vurma Animasyonu */}
       <div className={`axe-sprite-wrap ${isChopping ? 'axe-chopping-hit' : 'axe-idle-hover'}`}>
         <img
-          src="/assets/axe.png"
+          src={`${import.meta.env.BASE_URL}assets/axe.png`}
           alt="Balta"
           className="axe-sprite-img"
           draggable={false}
